@@ -1,7 +1,5 @@
 # Slightly Retro Bowl
-## Retro Bowl Modded for Web
-There are very few Retro Bowl cracks out there, especially for web.
+## Fun, modifiable port of Retro Bowl
+A cool project that lets you mess around with Retro Bowl!
 
-This is a WIP and I plan to add a Save Editor and Import/Exporter later.
-
-The original source code was pulled from 1xRetro.
+A more detailed guide is coming soon.
