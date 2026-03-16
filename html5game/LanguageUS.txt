@@ -126,7 +126,7 @@ comm_stage_end_quarter4	Game over
 comm_stage_overtime	Overtime!
 comm_stage_overtime_over	Game over
 comm_stage_2pt_attempt	They go for 2 points...
-comm_stage_2pt_missed	But get stopped!
+comm_stage_2pt_missed	A streaker stops them from scoring!
 comm_stage_2pt_scored	And score!
 comm_stage_Turnover_Tackle1	[$pos] $playername makes a great tackle!
 comm_stage_Turnover_Tackle2	[$pos] $playername makes the tackle!
@@ -137,7 +137,7 @@ comm_stage_Turnover_Sack2	[$pos] $playername with a huge sack!
 comm_stage_Turnover_Interception1	[$pos] $playername makes an interception!
 comm_stage_Turnover_Interception2	[$pos] It's an interception by $playername!
 comm_stage_failed_skill	[$pos] $playername missed the tackle
-comm_stage_failed_speed	[$pos] $playername was too slow
+comm_stage_failed_speed	[$pos] $playername was lost
 comm_stage_failed_strength	[$pos] $playername wasn't strong enough
 comm_stage_incomplete_Run	It's short of the 1st down
 comm_stage_incomplete_Pass	Incomplete
@@ -365,7 +365,7 @@ msg_SignRookie	Do you want to sign rookie $position $playername?
 msg_CannotSign1	You already have a $position.##You will need to cut or trade the $position from your roster if you want to sign $playername.
 msg_CannotSign2	You already have $num players for the $position position.##You will need to cut or trade someone from your roster if you want to sign $playername.
 ui_Sign	Sign
-msg_SkipDraft	You still have $num picks left.##Do you want to sell your picks in this round for $value coach credits?
+msg_SkipDraft	You still have $num picks left.##Do you want to sell your kids to Epstein for $value coach credits?
 msg_SkipDraft1	You still have a pick left in this round.##Do you want to sell it for $value coach credits?
 ui_NoMorePicks	You don't have any picks left.
 ui_NoMorePicksToTrade	You don't have a $num round pick for next season's draft to trade.
@@ -462,7 +462,7 @@ msg_facility_Stadium	Do you want to improve the stadium and fan facilities for $
 msg_facility_Training	Do you want to improve the player training facilities for $num credits?
 msg_facility_Rehab	Do you want to improve the player rehab facilities for $num credits?
 msg_NoCreditFacility	You do not have enough credits to upgrade this facility.
-msg_FacilityTooSoon	You cannot upgrade this facility twice in one week.
+msg_FacilityTooSoon	You cannot upgrade this facility twice in one week, those coins are useless.
 ui_UpgradeCost	Upgrade#Cost
 ui_FrontOffice	Front Office
 btn_FrontOffice	Front#Office
@@ -660,7 +660,7 @@ injurytype_9	Calf
 injurytype_10	Ankle
 injurytype_11	Foot
 ui_SkipTutorial	Skip Tutorial
-ui_Credits	Design & Code by Simon Read      ***      Art by  Savage @pixelnfl      ***      Music by Heatley Bros      ***      Special thanks to John Holden, @MrSpecialK_, Will Thompson and Five Aces      ***      Also a huge thank you to all the league organizers and players!
+ui_Credits	Design & Code by Simon Read      ***      Cracked by wesley      ***      Music by Heatley Bros      ***      Special thanks to John Holden, @MrSpecialK_, Will Thompson and Five Aces      ***      Also a huge thank you to all the league organizers and players!
 match_TooLow	Too Low
 match_Doink	Doink
 ui_WeatherFX	Weather FX
@@ -737,7 +737,7 @@ choice_SideWithCoach	Side With#Coach
 choice_SideWithPlayer	Side With#Player
 dilemma_RestPlayer	Hey coach, I'm feeling totally exhausted. Can I rest for the next game?-choice_RestYes-choice_RestNo
 choice_RestYes	Yes
-choice_RestNo	No
+choice_RestNo	Sucks to suck buddy!
 dilemma_toxic1	$playername was arrested and later released on bail for possession of recreational drugs last night.-choice_DefendPlayer-choice_CriticisePlayer
 dilemma_toxic2	$playername was caught on CCTV fighting outside a nightclub in the early hours of the morning.-choice_DefendPlayer-choice_CriticisePlayer
 dilemma_toxic3	Footage has appeared on social media of $playername drinking multiple shots of tequila in a bar the night before a game.-choice_DefendPlayer-choice_CriticisePlayer
@@ -766,7 +766,7 @@ dilemma_rookie5	CCTV footage of rookie $playername fighting outside a nightclub 
 dilemma_rookie6	Rookie $playername has hit the headlines after it was revealed that he has been gambling huge sums of money playing online poker.-choice_DefendPlayer-choice_CriticisePlayer
 choice_IgnoreFine	Ignore Fine
 choice_FinePlayer	Fine Player
-news_CharityWork1	$playername has been praised for his charity work supporting $randomcharity.
+news_CharityWork1	$playername has been praised for his charity work supporting $randomcharity -choice_FinePlayer-choice_CriticisePlayer
 news_CharityWork2	$playername featured on national news when he visited a children's hospital today.
 news_CharityWork3	$playername received an award for his work supporting $randomcharity.
 news_CharityWork4	$playername's foundation which supports $randomcharity has received widespread praise.
